@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>2048</title>
 
+  <!--
   <script>
     if (typeof window !== undefined && typeof window.location !== undefined && window.location.hostname === "gabrielecirulli.github.io") {
       if (typeof window.location.replace === "function") {
@@ -13,7 +14,6 @@
       }
     }
   </script>
-
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42620757-2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -22,6 +22,7 @@
 
     gtag("config", "UA-42620757-2");
   </script>
+  -->
 
   <link href="style/main.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
@@ -36,19 +37,20 @@
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
   <meta name="format-detection" content="telephone=no" />
 
-  <meta name="apple-itunes-app" content="app-id=868076805">
+  <meta name="removed-apple-itunes-app" content="app-id=868076805">
 
   <meta property="og:title" content="2048"/>
   <meta property="og:site_name" content="2048"/>
   <meta property="og:description" content="Join the numbers and get to the 2048 tile! Careful: this game is extremely addictive!"/>
-  <meta property="og:image" content="http://gabrielecirulli.github.io/2048/meta/og_image.png"/>
+  <meta property="og:image" content="http://zbryikt.github.io/2048/meta/og_image.png"/>
 
   <meta name="twitter:card" content="app" />
+  <!--
   <meta name="twitter:site" content="@gabrielecirulli" />
   <meta name="twitter:title" content="2048" />
   <meta name="twitter:description" content="Join the numbers and get to the 2048 tile! Careful: this game is extremely addictive!" />
-  <meta name="twitter:image" content="http://gabrielecirulli.github.io/2048/meta/og_image.png" />
-  <meta name="twitter:url" content="http://gabrielecirulli.github.io/2048/" />
+  <meta name="twitter:image" content="http://zbryikt.github.io/2048/meta/og_image.png" />
+  <meta name="twitter:url" content="http://zbryikt.github.io/2048/" />
   <meta name="twitter:app:country" content="US">
   <meta name="twitter:app:name:iphone" content="2048">
   <meta name="twitter:app:id:iphone" content="868076805">
@@ -66,8 +68,10 @@
           enable_page_level_ads: true
      });
   </script>
+  -->
 </head>
 <body>
+  <!--
   <div class="sidebar">
     <ins
       class="adsbygoogle"
@@ -79,6 +83,7 @@
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
   </div>
+  -->
 
   <div class="cookie-notice" style="display:none">
     <p>2048 uses cookies to analyse traffic to the site and to serve ads. <a href="./privacy.html">Learn More</a></p>
@@ -98,11 +103,12 @@
       <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
       <a class="restart-button">New Game</a>
     </div>
-
+    <!--
     <div class="app-notice" style="display:none">
       <span class="notice-close-button">&times;</span>
       <p>Get 2048 for <a href="https://itunes.apple.com/us/app/2048-by-gabriele-cirulli/id868076805" target="_blank">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.gabrielecirulli.app2048" target="_blank">Android!</a></p>
     </div>
+    -->
 
     <div class="game-container">
       <div class="game-message">
@@ -111,9 +117,9 @@
 	        <a class="keep-playing-button">Keep going</a>
           <a class="retry-button">Try again</a>
           <div class="score-sharing"></div>
-          <div class="mailing-list">
+          <div class="mailing-list" style="display:none">
             <!-- MailChimp Signup Form -->
-            <form action="http://gabrielecirulli.us8.list-manage.com/subscribe/post?u=991201206817cfb4e4247ed6c&amp;id=7928ea817b" method="post" name="mc-embedded-subscribe-form" class="mailing-list-form" target="_blank">
+            <form>
               <strong>Get email updates from Gabriele</strong>
 
               <input type="email" value="" name="EMAIL" class="mailing-list-email-field" placeholder="Your email address" spellcheck="false">
@@ -160,7 +166,7 @@
 
       </div>
     </div>
-
+    <!--
     <div class="under-board-container">
       <ins class="adsbygoogle"
           data-ad-client="ca-pub-2670526606338388"
@@ -171,6 +177,7 @@
         (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
     </div>
+    -->
 
     <p class="game-explanation" style="display:none">
       <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
