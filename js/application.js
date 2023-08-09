@@ -12,7 +12,7 @@ window.requestAnimationFrame(function () {
   if (storage.getNoticeClosed()) {
     notice.parentNode.removeChild(notice);
   } else {
-    noticeClose.addEventListener("click", function () {
+    if(noticeClose) noticeClose.addEventListener("click", function () {
       notice.parentNode.removeChild(notice);
       storage.setNoticeClosed(true);
       if (typeof gtag !== undefined){
